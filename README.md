@@ -1,12 +1,60 @@
-# React + Vite
+# 🎬 Movie Recommendation Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+This is a **Single Page Responsive Movie Recommendation Web Application** built using **React.js** and **Tailwind CSS**. It fetches movies dynamically from the **TMDB API**, ensuring users always get fresh recommendations. The app also features a **trending list** that updates based on real user searches, powered by **Appwrite**.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **📌 Real-Time Movie Data** – Get the latest movies fetched from **TMDB API**.
+- **🔍 Smart Search with Debouncing** – Optimized search functionality for a smooth experience.
+- **🔥 Trending List Based on User Searches** – Movies rank higher as more users search for them.
+- **📱 Fully Responsive** – Works seamlessly across all devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Appwrite (for tracking trending searches)
+- **API:** TMDB API
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
+(Add your app screenshots here)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Installation & Setup
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Jitprakash/ReactMovieApp.git
+   cd ReactMovieApp
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Set up environment variables:**
+   - Create a `.env` file in the root directory.
+   - Add your **TMDB API key** and **Appwrite configuration**:
+
+4. **Run the app:**
+   ```sh
+   npm run dev
+   ```
+
+5. **Visit the app in your browser:**
+   ```sh
+   http://localhost:3000
+   ```
+
+## 🎯 Future Improvements
+- Add user authentication for personalized recommendations.
+- Implement a "Watchlist" feature.
+- Enhance UI with animations.
+
+## 🤝 Contributing
+Feel free to **fork this repository** and submit pull requests. Suggestions and contributions are always welcome!
+
+
+## 🔗 Connect with Me
+- LinkedIn: [Jit Prakash Behera](https://www.linkedin.com/in/jit-prakash-behera)
+- GitHub: [Jitprakash](https://github.com/Jitprakash)
+
